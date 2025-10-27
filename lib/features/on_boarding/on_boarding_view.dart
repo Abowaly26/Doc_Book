@@ -3,6 +3,7 @@ import 'package:doctor/features/on_boarding/widgets/doc_logo_name.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../../core/helpers/spacing.dart';
 import '../../core/theming/styles.dart';
 import 'widgets/get_started_button.dart';
 
@@ -30,7 +31,7 @@ class OnBoardingView extends StatelessWidget {
                         style: TextStyles.font13GrayRegular,
                         textAlign: TextAlign.center,
                       ),
-                      SizedBox(height: 30.h),
+                      verticalSpace(8.h),
                       const GetStartedButton(),
                     ],
                   ),
